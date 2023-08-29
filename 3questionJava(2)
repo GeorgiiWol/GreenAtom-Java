@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main{
+
+    public static void main(String[] args){
+        Scanner  scan = new Scanner(System.in);
+        String inp = scan.nextLine();
+        char[] array = inp.toCharArray();
+        String a = "";
+        for (int i = array.length - 1; i >= 0; i--) {
+            a = a + array[i];
+        }
+        if(a.equals(inp)){
+            system.out.println("palendrom");
+        }else{
+            system.out.println("not palendrom");
+        }
+    }
+}
