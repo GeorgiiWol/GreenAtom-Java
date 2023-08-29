@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main{
 
+
     public static void main(String[] args){
         Scanner  scan = new Scanner(System.in);
         String inp = scan.nextLine();
@@ -11,9 +12,9 @@ public class Main{
             a = a + array[i];
         }
         if(a.equals(inp)){
-            system.out.println("palendrom");
+            System.out.println("palendrom");
         }else{
-            system.out.println("not palendrom");
+            System.out.println("not palendrom");
         }
     }
 }
